@@ -15,6 +15,7 @@ public class DemoCadenas01 {
         String ciudad = "Loja";
         String fechaIndependencia = "18 de noviembre";
         
+        
         System.out.println(pais);
         System.out.println(ciudad);
         System.out.println(fechaIndependencia);

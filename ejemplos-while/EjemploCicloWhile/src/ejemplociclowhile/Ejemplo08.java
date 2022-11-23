@@ -30,7 +30,9 @@ public class Ejemplo08 {
         boolean bandera = true;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        while (bandera) {
+        while (bandera == true) { /* no es necesario poner true
+                                     para que asuma que es verdadera, para fal-
+                                     se hay que escribir == false*/
             System.out.println("Ingrese calificación:");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
